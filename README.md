@@ -28,7 +28,15 @@ The template helps you create, build, and publish extensions for the tdl.
    cd <repository>
    ```
 
-3. **Install Dependencies**
+3. **Update the go.mod File**
+
+   Update the `go.mod` file with the correct module name:
+
+   ```sh
+   module github.com/<username>/<repository>
+   ```
+
+4. **Install Dependencies**
 
    Navigate to the project directory and install the required dependencies:
 
