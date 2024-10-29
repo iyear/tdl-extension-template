@@ -5,6 +5,9 @@
 This template provides instructions on how to use the tdl extension template. 
 The template helps you create, build, and publish extensions for the tdl.
 
+> [!WARNING]
+> tdl Extensions are in the beta stage. The API may change in the future.
+
 ## Prerequisites
 
 - `Go` programming language installed (version 1.21 or higher)
@@ -56,10 +59,14 @@ This will create an executable in the project directory.
 
 ## Test
 
-To test the extension, run the following command:
+To test the extension, run the following commands:
 
 ```sh
-tdl ext install ./tdl-extension
+tdl extension install --force ./tdl-extension
+```
+
+```sh
+tdl <global-config-flags> <extension-name> <extension-flags>
 ```
 
 This will install the extension in the tdl extension directory as `local` extension.
@@ -70,7 +77,7 @@ To publish your extension, follow these steps:
 
 1. **Create a New Tag**
     
-    Create a new tag for the release:
+    Create a new semver tag and push it to the repository:
 
     ```sh
     git tag v0.1.0
