@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This template provides instructions on how to use the tdl extension template. 
+This template provides instructions on how to use the tdl extension template.
 The template helps you create, build, and publish extensions for the tdl.
 
 > [!WARNING]
@@ -47,6 +47,16 @@ The template helps you create, build, and publish extensions for the tdl.
    go mod tidy
    ```
 
+## Develop
+
+To develop the extension more effectively, consider using [tdl/core](https://github.com/iyear/tdl/tree/master/core), a Go library that exposes core functionality of tdl for use with less third-party dependencies.
+
+Run the following command to install the library:
+
+```sh
+go get -u github.com/iyear/tdl/core
+```
+
 ## Build
 
 To build the extension, run the following command:
@@ -76,8 +86,8 @@ This will install the extension in the tdl extension directory as `local` extens
 To publish your extension, follow these steps:
 
 1. **Create a New Tag**
-    
-    Create a new semver tag and push it to the repository:
+
+   Create a new semver tag and push it to the repository:
 
     ```sh
     git tag v0.1.0
@@ -86,8 +96,8 @@ To publish your extension, follow these steps:
 
 2. **Wait for the GitHub Action to Complete**
 
-    The GitHub Action `release` will build and publish the extension to a new release.
+   The GitHub Action `release` will build and publish the extension to a new release.
 
 3. **Edit the draft release**
 
-    Edit the draft release and publish it.
+   Edit the draft release and publish it.
