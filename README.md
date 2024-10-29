@@ -20,7 +20,11 @@ The template helps you create, build, and publish extensions for the tdl.
 
    Click on the "Use this template" button to create a new repository based on this template.
 
-   > Note: repository name should be in the format `tdl-<extension-name>`
+> [!IMPORTANT]
+> GitHub repository name should be in the format `tdl-<extension-name>`
+
+> [!TIP]
+> Add `tdl-extension` topic to the repository for better discoverability.
 
 2. **Clone the Repository**
 
