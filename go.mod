@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/go-faster/errors v0.7.1
-	github.com/iyear/tdl/extension v0.18.4
+	github.com/iyear/tdl/extension v0.18.5
 	go.uber.org/zap v1.27.0
 )
 
@@ -18,7 +18,7 @@ require (
 	github.com/gotd/neo v0.1.5 // indirect
 	github.com/gotd/td v0.102.0 // indirect
 	github.com/iyear/connectproxy v0.1.1 // indirect
-	github.com/iyear/tdl/core v0.18.4 // indirect
+	github.com/iyear/tdl/core v0.18.5 // indirect
 	github.com/klauspost/compress v1.17.8 // indirect
 	github.com/segmentio/asm v1.2.0 // indirect
 	go.opentelemetry.io/otel v1.26.0 // indirect
