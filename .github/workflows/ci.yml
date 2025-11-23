@@ -21,7 +21,6 @@ jobs:
         uses: actions/setup-go@v6
         with:
           go-version-file: go.mod
-          cache: false # conflict with golangci-lint cache
       - name: lint
         uses: golangci/golangci-lint-action@v6
         with:
@@ -35,7 +34,6 @@ jobs:
         uses: actions/setup-go@v6
         with:
           go-version-file: go.mod
-          cache: true
       - name: Build
         run: go build
       - name: Unit Test

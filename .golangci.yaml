@@ -1,4 +1,3 @@
+version: "2"
 run:
   timeout: 30m
-output:
-  sort-results: true
