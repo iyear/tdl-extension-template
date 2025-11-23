@@ -1,6 +1,6 @@
 module github.com/iyear/tdl-extension-template
 
-go 1.21
+go 1.23.12
 
 require (
 	github.com/go-faster/errors v0.7.1
