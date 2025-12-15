@@ -4,7 +4,7 @@ go 1.23.12
 
 require (
 	github.com/go-faster/errors v0.7.1
-	github.com/iyear/tdl/extension v0.20.0
+	github.com/iyear/tdl/extension v0.20.1
 	go.uber.org/zap v1.27.1
 )
 
@@ -24,7 +24,7 @@ require (
 	github.com/gotd/neo v0.1.5 // indirect
 	github.com/gotd/td v0.122.0 // indirect
 	github.com/iyear/connectproxy v0.1.1 // indirect
-	github.com/iyear/tdl/core v0.19.1 // indirect
+	github.com/iyear/tdl/core v0.20.0 // indirect
 	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -39,7 +39,7 @@ require (
 	golang.org/x/exp v0.0.0-20230725093048-515e97ebf090 // indirect
 	golang.org/x/mod v0.25.0 // indirect
 	golang.org/x/net v0.41.0 // indirect
-	golang.org/x/sync v0.15.0 // indirect
+	golang.org/x/sync v0.16.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/text v0.26.0 // indirect
 	golang.org/x/tools v0.33.0 // indirect
