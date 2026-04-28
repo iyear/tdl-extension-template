@@ -5,7 +5,7 @@ go 1.23.12
 require (
 	github.com/go-faster/errors v0.7.1
 	github.com/iyear/tdl/extension v0.20.1
-	go.uber.org/zap v1.27.1
+	go.uber.org/zap v1.28.0
 )
 
 require (
